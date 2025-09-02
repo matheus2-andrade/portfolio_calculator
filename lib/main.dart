@@ -20,7 +20,7 @@ class MainApp extends StatelessWidget {
       child: MaterialApp(
         theme: AppTheme.lightTheme,
         darkTheme: AppTheme.dark,
-        themeMode: ThemeMode.light,
+        themeMode: ThemeMode.system,
         debugShowCheckedModeBanner: false,
         home: CalculatorPage(),
       ),
